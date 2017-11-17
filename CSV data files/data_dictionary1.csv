@@ -1,0 +1,3 @@
+Column Name,dtype,Description,Example
+hhnum,integer,6-digit unique identifier for each household (address),100381
+BMI,float,Individual's calculated Body Mass Index ,24.8

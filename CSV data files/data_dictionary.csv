@@ -1,0 +1,18 @@
+Column Name,dtype,Description,Example
+hhnum,integer,6-digit unique identifier for each household (address),100381
+usdadescmain,strings,USDA food category ,"Sweet potato, raw, unprepared"
+a_drinks,float,Alcoholic beverages ,1.2
+solid_fats,float,Solid fats ,1.2
+add_sugars,float,Foods defined as added sugars ,1.2
+d_total,float,"Total milk, yogurt, cheese, and whey ",1.2
+pf_total,float,"Total meat, poultry, seafood, organ & cured meats, eggs, soy, nuts and seeds ",1.2
+f_other,float,Total whole fruits and fruit juices ,1.2
+g_total,float,Total whole and refined grains ,1.2
+v_total,float,"Total dark green, red, and orange, starchy, and other vegetables ",1.2
+energy,float,Energy,1.2
+carb,float,Carbohydrate ,1.2
+dietfiber,float,Total dietary fiber ,1.2
+totsug,float,Total sugars ,1.2
+totfat,float,Total Fat,1.2
+alcohol,float,Alcohol ,1.2
+protein,float,Protein,1.2

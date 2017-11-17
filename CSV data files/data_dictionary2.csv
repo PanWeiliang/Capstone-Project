@@ -1,0 +1,114 @@
+Column_Name,dtype,Description,Example
+hhnum,integer,6-digit unique identifier for each household (address),100228
+nonmetro,integer,Household does not reside in a Census core-based statistical area ,1
+ region,integer,Census region ,3
+ rural,integer,Household is in a rural Census tract ,1
+ famsize,integer,Number of people in residence related to the respondent ,5
+ inchhavg_r,float,Household average (monthly) income as sum of average imputed income per member ,4667.33
+ pctpovguidehh_r,float,INCHHAVG_R as percent of HH,207.3600889
+ selfemployhh,integer,Anyone in household is self- employed ,0
+ jobchangeany,integer,Someone in household changed jobs within the last 3 months ,1
+ earnlessnum_r,integer,"Number in household changed jobs w/in last 3 months, earning less ",0
+ earnmorenum_r,integer,"Number in household changed jobs w/in last 3 months, earning more ",0
+ earnsamenum,integer,Number in household that changed jobs within last 3 months and are earning about same as before ,1
+ housingown,integer,"Household owns, rents, or does not pay for residential unit",1
+ housingpub,integer, Unit is in public housing ,0
+ housingsub,integer,Unit's rent is subsidized by the government ,0
+ liqassets,integer,Indicator of household's level of liquid assets ,1
+ vehiclenum,integer,Total number of vehicles owned or leased ,2
+ largeexp,integer,Household had unusually large and unexpected expense over past month ,0
+ snapnowhh,integer,Anyone in household is receiving SNAP benefits ,1
+ usdafoods,integer,Anyone in household receiving USDA foods from a local program or distribution site ,0
+ wichh,float,Anyone in household is receiving benefits from WIC ,0.165521237
+ mealdelivery,integer,Anyone in household is receiving meals at home from community programs,0
+ mealfacility,integer,Anyone in household has received meals at a community center in the past month,0
+ adltfsraw,integer,Adult food security score‹30-day measure ,0
+ foodsufficient,integer,Respondent description of food sufficiency within last 30 days ,0
+ grocerylistfreq,integer,How often respondent shops with a grocery list ,0
+ primstoredist_s,float,"Straight-line distance, in miles, between residence and primary food store ",5.8
+ primstoredist_d,float,"Driving distance, in miles, between residence and primary food store ",9.7
+ primstoretime_d,float,"Straight-line distance, in miles, between residence and primary food store ",6.4
+ primstoredist_w,float,"Driving time, in minutes, between residence and primary food store ",9
+ primstoretime_w,integer,"Walking distance, in miles, between residence and nearby primary food store ",12.45
+ primstoretravelmode,integer,Usual means of getting to primary food store ,1
+ primstoretravelcost,float,"One-way travel cost for getting to primary food store, in dollars ",3.333902493
+ primstoretraveltime,float,"One-way travel time to primary food store, in minutes ",4
+ primstoreprices,integer,Shop at primary store b/c has low prices/good value ,1
+ primstoreproduce,integer,Shop at primary store b/c has good produce selection ,0
+ primstoremeat,integer,Shop at primary store b/c has a good meat department ,0
+ primstorequality,integer,Shop at primary store b/c has good quality foodShop at primary store b/c has good quality food,0
+ primstorevariety,integer,Shop at primary store b/c has good variety of general foods,0
+ primstorespecial,integer,Shop at primary store b/c has good variety of special foods,0
+ primstoreclose,integer,Shop at primary store b/c is close to home ,1
+ primstoreloyalty,integer,Shop at primary store for loyalty card program ,0
+ primstoreothreason,integer,Shop at primary store for another reason ,0
+ altstorereason,integer,Main reason for shopping at alternate food store ,9
+ altstoredist_s,float,"Straight-line distance, in miles, between residence and alternate food store ",0.857
+ altstoredist_d,float,"Driving distance, in miles, between residence and alternate food store",1.455
+ altstoretime_d,float,"Driving time, in minutes, between residence and nearby alternate food store ",7.8
+ altstoredist_w,float,"Walking distance, in miles, between residence and nearby alternate food store ",1.444
+ altstoretime_w,float,"Walking time, in minutes, between residence and nearby alternate food store",28.77
+ evershopother,integer,Household ever shops for food at other than primary or alternate store ,1
+ foodstorenum,integer,Number of different food stores household shops at for groceries in typical month,5
+ shopconv,integer,Household shopped for food at a convenience store during past 30 days,1
+ shopbigbox,integer,Household shopped for food at a discount or big box store during past 30 days,1
+ shopclub,integer,Household shopped for food at a wholesale club during past 30 days ,0
+ shopdollar,integer,Household shopped for food at a dollar store during past 30 days ,1
+ shopbakery,integer,Household shopped for food at a bakery during past 30 days ,1
+ shopmeatfish,integer,Household shopped for food at a meat or fish market during past 30 days ,0
+ shopvegstand,integer,Household shopped for food at a produce store or vegetable stand during past 30 days ,0
+ shopanyother,integer,Household shopped for food at another store type during past 30 days ,0
+ shopothnone,integer,Household did not food shop except in grocery stores ,0
+ foodpantry,integer,Household went to a food bank or food pantry in past 30 days for groceries ,0
+ gardenown,integer,Household has a vegetable garden in season ,1
+ gardenelse,integer,Household receives fruits or vegetables from anyone else's garden ,1
+ farmersmarket,integer,Household ever gets food from a farm stand or farmersÍ market in season ,1
+ huntfish,integer,Household gets food by hunting or fishing ,1
+ dietstatuspr,integer,Respondent's assessment of how healthy own diet is ,4
+ dietstatushh,integer,Respondent's assessment of how healthy household's overall diet is ,5
+ healthycost,integer,It costs too much to eat healthy foods ,0
+ healthytime,integer,Respondent is too busy to take time to prepare healthy foods,1
+ healthytastepr,integer,Healthy foods do not taste good ,0
+ healthytastehh,integer,People in household think that healthy foods don't taste good ,1
+ eathealthyhh,integer,Family is already eating healthy foods ,0
+ myplate,integer,Heard of MyPlate ,0
+ myplatefollow,integer,Tried to follow MyPlate guidelines ,1
+ mypyramid,integer,Heard of MyPyramid ,1
+ foodpyramid,integer,Heard of the Food Pyramid or the Food Guide Pyramid ,1
+ mypyramidsearch,integer,Looked up MyPyramid plan on internet ,0
+ mypyramidfollow,integer,Tried to follow MyPyramid plan recommendations ,1
+ fruitsveg,integer,"Think you eat right amount of fruits and vegetables now, or more needed? ",2
+ nutritionfacts,integer,How often use Nutrition Facts panel? ,3
+ nutritioneduc,integer,"In last 2 months, participated in a nutrition education event ",0
+ nutritionsearch,integer,"In last 2 months, searched Internet for nutrition information ",0
+ anyvegetarian,integer,Any household member is vegetarian ,0
+ anylactoseintol,integer,Any household member is lactose intolerant ,1
+ anyfoodallergy,integer,Any household member has any food allergies ,0
+ allergywheat,integer,At least 1 person in residence has a wheat allergy ,0
+ allergymilk,integer,At least 1 person in residence has a milk allergy ,0
+ allergyegg,integer,At least 1 person in residence has an egg allergy ,0
+ allergyfish,integer,At least 1 person in residence has a fish allergy ,0
+ allergyshellfish,integer,At least 1 person in residence has a shellfish allergy ,0
+ allergycorn,integer,At least 1 person in residence has a corn allergy ,0
+ allergypeanut,integer,At least 1 person in residence has a peanut allergy ,0
+ allergyothnut,integer,At least 1 person in residence has an allergy to other nuts ,0
+ allergysoy,integer,At least 1 person in residence has a soy allergy,0
+ allergyoth,integer,At least 1 person in residence has an other food allergy ,0
+ anydieting,integer,Any household member is on any kind of food diet ,1
+ anytobacco,integer,Any household member smokes or chews tobacco ,1
+ anyillness,integer,Family member (in household or outside household) diagnosed with major illness/disability in last 3 months ,1
+ fincondition,integer,Household's reported financial condition ,4
+ billrevfreq,integer,How often household reviews bills for accuracy ,1
+ billsontimefreq,integer,How often household pays bills on time ,4
+ payaboveminfreq,integer,How often household pays more than ñminimum paymentî ,1
+ billpayprob6mos,integer,"Household could not pay rent/mortgage, utility, or important medical bill within last 6 months ",1
+ evicted6mos,integer,Household evicted for not paying rent or mortgage within last 6 months ,0
+ utilnotpaid6mos,integer,Household could not pay full amount of utility bills within last 6 months ,1
+ cashadv6mos,integer,Household used cash advance service on a credit card within last 6 months,1
+ paydayloan6mos,integer,Household took out a payday-like loan within last 6 months ,1
+ ndinnersouthh,integer,Average number of times household goes out for dinner during the week,1
+ nmealshome,integer,"During past 7 days, number of times prepared food for dinner at home ",9
+ nmealstogether,integer,"During past 7 days, number of times family ate dinner together, at home or away ",2
+ expense_total,float,Total expense,1235.67
+ altstoretype,integer,Alternative store's FoodAPS place type code ,121
+ primstoretype,integer,Primary store's FoodAPS place type code,122
